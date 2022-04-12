@@ -1,0 +1,199 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head
+{
+    margin-left:1cm;
+    font-size:25px;
+    font-family: 'Hahmlet', serif;
+}
+.para
+{
+    padding: 0px 30px 10px;
+    line-height: 25px;
+    font-size: larger;
+}
+.sub
+{
+    
+    width:40%;
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+.banner
+{
+    padding:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine; font-family: 'Hahmlet', serif;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.form
+{
+    width:35%;
+    height:12cm;
+    margin:5% 32%;
+    line-height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Lato', sans-serif;
+
+}
+.elements
+{
+    padding-left:10px;
+}
+.elements h3{
+    margin-left:20%;
+    font-family: 'Hahmlet', serif;
+}
+.elements input
+{
+    width: 80%;
+    padding: 8px;
+}
+.elements select
+{
+    width: 83%;
+    padding: 8px;
+}
+.elements input[type="radio"]
+{
+    width:10%;
+  
+}
+.submit input
+{
+    width: 35%;
+    height:35px;
+    margin-top: 30px;
+    margin-left: 30%;
+   border-radius: 10px;
+    background-color: aquamarine;
+    color:black;
+}
+.submit input:hover
+{
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width:1020px)
+{
+  
+    .head
+    {
+        
+        font-size:15px;
+    }
+    .para
+    {
+        
+        padding: 0px 20px 8px;
+        line-height: 30px;
+        font-size: larger;
+        
+    }
+    .sub
+    {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .banner
+    {
+
+        padding:50px;
+        display:flex;
+        flex-direction: column;
+        justify-content:right;
+        margin: auto;
+        
+    }
+.video
+{
+    align-self: center;
+    width:"520" ;
+    height:"250"
+}
+
+}
+@media only screen and (max-width:1000px)
+{
+    .form
+    {
+        width:80%;
+        height:25cm;
+        margin:5% 10% 5% 10%;
+    }
+
+   
+
+.elements
+{
+    padding-left:10%;
+    line-height: 65px;
+}
+.elements h3{
+   
+    font-size: 38px;
+    padding:5% 0%;
+    margin-left: 0%;
+}
+.elements label
+{
+    font-size:35px;
+
+}
+.elements input
+{
+    width: 75%;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    
+}
+.elements select
+{
+    width: 80%;
+    padding: 15px;
+    font-size: larger;
+    border: 2px solid black;
+}
+.elements select option p
+{
+    font-size :100px;;
+}
+.elements input[type="radio"]
+{
+    width: 20px;
+    height: 20px;
+    margin:10px;
+    padding: 20px;
+    line-height:30px
+}
+.submit input
+{
+    width: 45%;
+    height:50px;
+    margin-top: 3cm;
+    margin-left: 20%;
+    border-radius: 20px;
+    background-color: aquamarine;
+    color:black;
+    font-size:x-large;
+}
+.submit input:hover
+{
+    background-color: black;
+    color: white;
+}
+}
